@@ -26,6 +26,7 @@ import TextForm from "./components/TextForm"; // ✅ सही bootstrap button 
  import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Counter from "./components/Counter.jsx";
+import GreetingApp from './components/projects/GreetingApp.jsx';
 function App() {
 //  const sayHello = () => {
 //     alert("Hello Aleena!");
@@ -44,7 +45,8 @@ function App() {
       <div className="container">
         <TextForm heading="Enter user details"/>
       </div> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <GreetingApp/>
     </div>
   );
 }
