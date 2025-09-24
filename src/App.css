@@ -4,8 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-body {
-  background-color: #e2e8f0; /* Tailwind zinc-200 */
+
+/* body {
+  background-color: #2e66b4; /* Tailwind zinc-200 */
+ 
+body{
+  background-color:rgb(93, 93, 137) !important;
 }
 
 .logo:hover {
