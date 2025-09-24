@@ -15,6 +15,7 @@ import Card from './components/Card.jsx';
 import Rendering from "./components/ConditionRendering/basicrendering.jsx";
 import TernaryRendering from "./components/ConditionRendering/ternaryRendering.jsx";
 import Card2 from "./components/useStateHook/Card2.jsx";
+import CountuseEffect from './components/useeffectHook/CounteruseEffect.jsx';
 function App() {
 //  const sayHello = () => {
 //     alert("Hello Aleena!");
@@ -42,6 +43,7 @@ function App() {
       {/* <Rendering/>
       <TernaryRendering/> */}
       <Card2/>
+      <CountuseEffect/>
     </div>
   );
 }
