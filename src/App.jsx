@@ -1,20 +1,4 @@
 
-// What are Props in React?
-
-// Props = Properties (short form).
-
-// Props are used to pass data from parent component → child component.
-
-// They are read-only (immutable) → child cannot modify props.
-
-// 🔹 Why use Props?
-
-// To reuse components with different data.
-
-// To make components dynamic instead of hardcoding values.
-
-// To pass data (strings, numbers, objects, functions, etc.) between components.
-
 
 // parent components
 import React from "react";
@@ -27,6 +11,10 @@ import TextForm from "./components/TextForm"; // ✅ सही bootstrap button 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Counter from "./components/Counter.jsx";
 import GreetingApp from './components/projects/GreetingApp.jsx';
+import Card from './components/Card.jsx';
+import Rendering from "./components/ConditionRendering/basicrendering.jsx";
+import TernaryRendering from "./components/ConditionRendering/ternaryRendering.jsx";
+import Card2 from "./components/useStateHook/Card2.jsx";
 function App() {
 //  const sayHello = () => {
 //     alert("Hello Aleena!");
@@ -46,7 +34,14 @@ function App() {
         <TextForm heading="Enter user details"/>
       </div> */}
       {/* <Counter/> */}
-      <GreetingApp/>
+      {/* <GreetingApp/> */}
+      
+
+      {/* <Card/> */}
+
+      {/* <Rendering/>
+      <TernaryRendering/> */}
+      <Card2/>
     </div>
   );
 }
